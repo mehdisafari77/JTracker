@@ -17,17 +17,40 @@ struct OnboardingView: View {
                         Spacer()
                         NavigationLink(destination: HomeView()) {
                             Text("Skip")
+                                .foregroundColor(.white)
+                                
                         }
                         .padding()
                     }
                     Image("1onboarding")
-                        .frame(width: .infinity, height: .infinity, alignment: .center)
+                        .resizable()
+                        .frame(width: 430, height: 400)
+
                 }
                 .background(Color(hex: "#55C26F"))
-                
+
                 Spacer()
+                
+                VStack {
+                    Text("Find Your Dream Job")
+                        .font(.title)
+                        .fontWeight(.bold)
+                    
+                    Text("With JTracker you can track all your job needs with simple features")
+                        .padding()
+                        
+                    
+                    Spacer()
+                    
+                }
+                .frame(width: 350, height: 300, alignment: .center)
+                .padding()
+                
+                .background(Color(.white))
+                
             }
             .navigationBarHidden(true)
+            
         }
     }
 }
