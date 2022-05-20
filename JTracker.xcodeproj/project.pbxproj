@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B52E06A5283723F500EF1B3F /* JTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06A4283723F500EF1B3F /* JTrackerApp.swift */; };
-		B52E06A7283723F500EF1B3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06A6283723F500EF1B3F /* ContentView.swift */; };
+		B52E06A7283723F500EF1B3F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06A6283723F500EF1B3F /* SplashView.swift */; };
 		B52E06A9283723F600EF1B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52E06A8283723F600EF1B3F /* Assets.xcassets */; };
 		B52E06AC283723F600EF1B3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52E06AB283723F600EF1B3F /* Preview Assets.xcassets */; };
 		B52E06B6283723F600EF1B3F /* JTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06B5283723F600EF1B3F /* JTrackerTests.swift */; };
 		B52E06C0283723F600EF1B3F /* JTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06BF283723F600EF1B3F /* JTrackerUITests.swift */; };
 		B52E06C2283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06C1283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift */; };
+		B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06CE2837283800EF1B3F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		B52E06A1283723F500EF1B3F /* JTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52E06A4283723F500EF1B3F /* JTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTrackerApp.swift; sourceTree = "<group>"; };
-		B52E06A6283723F500EF1B3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B52E06A6283723F500EF1B3F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		B52E06A8283723F600EF1B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B52E06AB283723F600EF1B3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B52E06B1283723F600EF1B3F /* JTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		B52E06BB283723F600EF1B3F /* JTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52E06BF283723F600EF1B3F /* JTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTrackerUITests.swift; sourceTree = "<group>"; };
 		B52E06C1283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B52E06CE2837283800EF1B3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				B52E06A4283723F500EF1B3F /* JTrackerApp.swift */,
-				B52E06A6283723F500EF1B3F /* ContentView.swift */,
+				B52E06A6283723F500EF1B3F /* SplashView.swift */,
 				B52E06A8283723F600EF1B3F /* Assets.xcassets */,
 				B52E06AA283723F600EF1B3F /* Preview Content */,
+				B52E06CE2837283800EF1B3F /* HomeView.swift */,
 			);
 			path = JTracker;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52E06A7283723F500EF1B3F /* ContentView.swift in Sources */,
+				B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */,
+				B52E06A7283723F500EF1B3F /* SplashView.swift in Sources */,
 				B52E06A5283723F500EF1B3F /* JTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
