@@ -15,6 +15,8 @@
 		B52E06C0283723F600EF1B3F /* JTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06BF283723F600EF1B3F /* JTrackerUITests.swift */; };
 		B52E06C2283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06C1283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift */; };
 		B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06CE2837283800EF1B3F /* HomeView.swift */; };
+		B52E06D1283728BF00EF1B3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06D0283728BF00EF1B3F /* OnboardingView.swift */; };
+		B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		B52E06BF283723F600EF1B3F /* JTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTrackerUITests.swift; sourceTree = "<group>"; };
 		B52E06C1283723F600EF1B3F /* JTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B52E06CE2837283800EF1B3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B52E06D0283728BF00EF1B3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B52E06A3283723F500EF1B3F /* JTracker */,
+				B52E06AA283723F600EF1B3F /* Preview Content */,
 				B52E06B4283723F600EF1B3F /* JTrackerTests */,
 				B52E06BE283723F600EF1B3F /* JTrackerUITests */,
 				B52E06A2283723F500EF1B3F /* Products */,
@@ -99,8 +104,9 @@
 				B52E06A4283723F500EF1B3F /* JTrackerApp.swift */,
 				B52E06A6283723F500EF1B3F /* SplashView.swift */,
 				B52E06A8283723F600EF1B3F /* Assets.xcassets */,
-				B52E06AA283723F600EF1B3F /* Preview Content */,
 				B52E06CE2837283800EF1B3F /* HomeView.swift */,
+				B52E06D0283728BF00EF1B3F /* OnboardingView.swift */,
+				B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */,
 			);
 			path = JTracker;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */,
 				B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */,
+				B52E06D1283728BF00EF1B3F /* OnboardingView.swift in Sources */,
 				B52E06A7283723F500EF1B3F /* SplashView.swift in Sources */,
 				B52E06A5283723F500EF1B3F /* JTrackerApp.swift in Sources */,
 			);
