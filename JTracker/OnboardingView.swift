@@ -24,11 +24,10 @@ struct OnboardingView: View {
                         .frame(width: .infinity, height: .infinity, alignment: .center)
                 }
                 .background(Color(hex: "#55C26F"))
-
-
                 
                 Spacer()
             }
+            .navigationBarHidden(true)
         }
     }
 }
