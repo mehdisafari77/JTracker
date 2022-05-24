@@ -17,6 +17,8 @@
 		B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06CE2837283800EF1B3F /* HomeView.swift */; };
 		B52E06D1283728BF00EF1B3F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06D0283728BF00EF1B3F /* OnboardingView.swift */; };
 		B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */; };
+		B5418C96283D93F200F3BBAB /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */; };
+		B5418C9A283D996100F3BBAB /* OnboardingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5418C99283D996100F3BBAB /* OnboardingViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		B52E06CE2837283800EF1B3F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B52E06D0283728BF00EF1B3F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B5418C99283D996100F3BBAB /* OnboardingViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				B52E06A8283723F600EF1B3F /* Assets.xcassets */,
 				B52E06CE2837283800EF1B3F /* HomeView.swift */,
 				B52E06D0283728BF00EF1B3F /* OnboardingView.swift */,
+				B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */,
 				B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */,
 			);
 			path = JTracker;
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				B52E06B5283723F600EF1B3F /* JTrackerTests.swift */,
+				B5418C99283D996100F3BBAB /* OnboardingViewModelTest.swift */,
 			);
 			path = JTrackerTests;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */,
+				B5418C96283D93F200F3BBAB /* OnboardingViewModel.swift in Sources */,
 				B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */,
 				B52E06D1283728BF00EF1B3F /* OnboardingView.swift in Sources */,
 				B52E06A7283723F500EF1B3F /* SplashView.swift in Sources */,
@@ -279,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52E06B6283723F600EF1B3F /* JTrackerTests.swift in Sources */,
+				B5418C9A283D996100F3BBAB /* OnboardingViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

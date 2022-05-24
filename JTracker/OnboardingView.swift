@@ -8,40 +8,47 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
+    @ObservedObject private var viewModel = OnboardingViewModel()
+    
     var body: some View {
         NavigationView {
             VStack {
-                Group {
-                    
+                VStack {
                     HStack {
                         Spacer()
                         NavigationLink(destination: HomeView()) {
                             Text("Skip")
                                 .foregroundColor(.white)
-                                
+                            
                         }
                         .padding()
                     }
-                    Image("1onboarding")
+                    Image(viewModel.imageName)
                         .resizable()
-                        .frame(width: 430, height: 400)
-
+                        .frame(width: 430, height: 390)
+                    
                 }
                 .background(Color(hex: "#55C26F"))
-
+                
                 Spacer()
                 
                 VStack {
-                    Text("Find Your Dream Job")
+                    Text(viewModel.title)
                         .font(.title)
                         .fontWeight(.bold)
                     
-                    Text("With JTracker you can track all your job needs with simple features")
+                    Text(viewModel.subtitle)
                         .padding()
-                        
                     
                     Spacer()
                     
+                    
+                    Button {
+                        viewModel.nextPage()
+                    } label: {
+                        Text("Next")
+                    }
                 }
                 .frame(width: 350, height: 300, alignment: .center)
                 .padding()
