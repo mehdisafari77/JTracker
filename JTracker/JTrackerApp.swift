@@ -9,6 +9,12 @@ import SwiftUI
 
 @main
 struct JTrackerApp: App {
+    
+    init() {
+        UITableView.appearance().backgroundColor = .clear
+        UITableView.appearance().separatorColor = .clear
+    }
+    
     var body: some Scene {
         WindowGroup {
             SplashView()

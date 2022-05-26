@@ -19,6 +19,9 @@
 		B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */; };
 		B5418C96283D93F200F3BBAB /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */; };
 		B5418C9A283D996100F3BBAB /* OnboardingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5418C99283D996100F3BBAB /* OnboardingViewModelTest.swift */; };
+		B5A7E8182840312000E4DDE2 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A7E8172840312000E4DDE2 /* SignInView.swift */; };
+		B5A7E81A2840356D00E4DDE2 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A7E8192840356D00E4DDE2 /* View+Extensions.swift */; };
+		B5A7E81C284039C700E4DDE2 /* CustomCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A7E81B284039C700E4DDE2 /* CustomCheckbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		B5418C99283D996100F3BBAB /* OnboardingViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModelTest.swift; sourceTree = "<group>"; };
+		B5A7E8172840312000E4DDE2 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B5A7E8192840356D00E4DDE2 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B5A7E81B284039C700E4DDE2 /* CustomCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				B52E06D0283728BF00EF1B3F /* OnboardingView.swift */,
 				B5418C95283D93F200F3BBAB /* OnboardingViewModel.swift */,
 				B52E06D228372C1B00EF1B3F /* Color+Extensions.swift */,
+				B5A7E8172840312000E4DDE2 /* SignInView.swift */,
+				B5A7E8192840356D00E4DDE2 /* View+Extensions.swift */,
+				B5A7E81B284039C700E4DDE2 /* CustomCheckbox.swift */,
 			);
 			path = JTracker;
 			sourceTree = "<group>";
@@ -273,11 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52E06D328372C1B00EF1B3F /* Color+Extensions.swift in Sources */,
+				B5A7E8182840312000E4DDE2 /* SignInView.swift in Sources */,
 				B5418C96283D93F200F3BBAB /* OnboardingViewModel.swift in Sources */,
 				B52E06CF2837283800EF1B3F /* HomeView.swift in Sources */,
 				B52E06D1283728BF00EF1B3F /* OnboardingView.swift in Sources */,
 				B52E06A7283723F500EF1B3F /* SplashView.swift in Sources */,
+				B5A7E81A2840356D00E4DDE2 /* View+Extensions.swift in Sources */,
 				B52E06A5283723F500EF1B3F /* JTrackerApp.swift in Sources */,
+				B5A7E81C284039C700E4DDE2 /* CustomCheckbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
