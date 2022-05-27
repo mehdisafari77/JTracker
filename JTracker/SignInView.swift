@@ -12,6 +12,9 @@ struct SignInView: View {
     @State var isPrivate: Bool = true
     
     var body: some View {
+        
+        let screen = UIScreen.main.bounds
+
         VStack(alignment: .leading) {
             HStack {
                 Spacer()
@@ -34,7 +37,8 @@ struct SignInView: View {
                 Text("Fill the fields below with your information")
                     .foregroundColor(Color(hex:"#7D7E8B"))
                 
-                Form {
+                // Sign up Form
+                VStack {
                     VStack(alignment: .leading) {
                         Text("Email Address")
                         HStack {
@@ -56,7 +60,6 @@ struct SignInView: View {
                         }
                         .addBorder(.gray, cornerRadius: 12)
                     }
-                    Spacer()
                     Button {
                         //
                     } label: {
@@ -64,15 +67,39 @@ struct SignInView: View {
                             .foregroundColor(Color(hex: "#fff"))
                     }
                     .maxWidth()
-                    .padding()
+                    .padding(20)
                     .background(Color(hex: "#55C26F"))
                     .cornerRadius(30)
                     
+                    Spacer()
+
+                }
+                .padding()
+                
+                Text("or try signing in")
+                
+                HStack {
+                    Button {
+                        //appl sign in
+                    } label: {
+                        Image("appleIcon")
+                            .resizable()
+                            .frame(width: screen.width / 8, height: screen.height / 16)
+                    }
                     
+                    Button {
+                        //google sign in
+                    } label: {
+                        Image("googleIcon")
+                            .resizable()
+                            .frame(width: screen.width / 8, height: screen.height / 16)
+                    }
+
                 }
                 
-                
                 Spacer()
+                
+                
 
                 
             }
