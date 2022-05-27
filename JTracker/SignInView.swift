@@ -11,8 +11,6 @@ struct SignInView: View {
     @State var username: String = ""
     @State var isPrivate: Bool = true
     
-    
-    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -22,6 +20,8 @@ struct SignInView: View {
                     //
                 } label: {
                     Text("Create Account")
+                        .foregroundColor(Color(hex: "#55C26F"))
+
                 }
             }
             
@@ -29,8 +29,10 @@ struct SignInView: View {
                 Text("Sign in")
                     .font(.largeTitle)
                     .font(.headline)
+                    .padding(.bottom)
                 
                 Text("Fill the fields below with your information")
+                    .foregroundColor(Color(hex:"#7D7E8B"))
                 
                 Form {
                     VStack(alignment: .leading) {
@@ -39,7 +41,8 @@ struct SignInView: View {
                             Image("emailIcon")
                                 .padding()
                             TextField("Email...", text: $username)
-                                .padding().listRowSeparator(.hidden)
+                                .padding(.leading, -10)
+                                .listRowSeparator(.hidden)
                         }
                         .addBorder(.gray, cornerRadius: 12)
                     
@@ -49,15 +52,16 @@ struct SignInView: View {
                             Image("keyIcon")
                                 .padding()
                             TextField("Password...", text: $username)
-                                .padding()
+                                .padding(.leading, -10)
                         }
                         .addBorder(.gray, cornerRadius: 12)
                     }
-                    
+                    Spacer()
                     Button {
                         //
                     } label: {
                         Text("Sign in")
+                            .foregroundColor(Color(hex: "#fff"))
                     }
                     .maxWidth()
                     .padding()
