@@ -27,7 +27,7 @@ struct SignInView: View {
                     
                 }
             }
-            
+            Spacer()
             VStack(alignment: .leading) {
                 Text("Sign in")
                     .font(.largeTitle)
@@ -70,14 +70,11 @@ struct SignInView: View {
                     .padding(20)
                     .background(Color(hex: "#55C26F"))
                     .cornerRadius(30)
-                    
-                    //                    Spacer()
-                    
+
                 }
                 .padding()
                 
             }
-            
             // Sign up Buttons
             VStack(alignment: .center) {
                 Divider()
@@ -100,12 +97,12 @@ struct SignInView: View {
                             .frame(width: screen.width / 6, height: screen.height / 13)
                     }
                 }
-                Button {
-                    //
-                } label: {
-                    Text("Forgot Password")
-                        .foregroundColor(Color(hex: "#262838"))
-                }
+                    Button {
+                        //
+                    } label: {
+                        Text("Forgot Password?")
+                            .foregroundColor(Color(hex: "#262838"))
+                    }
                 .padding()
             }
             .padding(.top)
