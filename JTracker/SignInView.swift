@@ -14,8 +14,8 @@ struct SignInView: View {
     var body: some View {
         
         let screen = UIScreen.main.bounds
-
-        VStack(alignment: .leading) {
+        
+        VStack {
             HStack {
                 Spacer()
                 
@@ -24,7 +24,7 @@ struct SignInView: View {
                 } label: {
                     Text("Create Account")
                         .foregroundColor(Color(hex: "#55C26F"))
-
+                    
                 }
             }
             
@@ -49,7 +49,7 @@ struct SignInView: View {
                                 .listRowSeparator(.hidden)
                         }
                         .addBorder(.gray, cornerRadius: 12)
-                    
+                        
                         Text("Password")
                         
                         HStack {
@@ -71,11 +71,13 @@ struct SignInView: View {
                     .background(Color(hex: "#55C26F"))
                     .cornerRadius(30)
                     
-                    Spacer()
-
+                    //                    Spacer()
+                    
                 }
                 .padding()
                 
+            }
+            VStack(alignment: .center) {
                 Text("or try signing in")
                 
                 HStack {
@@ -94,15 +96,15 @@ struct SignInView: View {
                             .resizable()
                             .frame(width: screen.width / 8, height: screen.height / 16)
                     }
-
                 }
-                
-                Spacer()
-                
-                
-
-                
+                Button {
+                    //
+                } label: {
+                    Text("Forgot Password")
+                        .foregroundColor(Color(hex: "#262838"))
+                }
             }
+            .padding(.top)
             
             Spacer()
         }
