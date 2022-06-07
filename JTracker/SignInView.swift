@@ -77,8 +77,12 @@ struct SignInView: View {
                 .padding()
                 
             }
+            
+            // Sign up Buttons
             VStack(alignment: .center) {
-                Text("or try signing in")
+                Divider()
+                Text("Sign in using")
+                    .padding()
                 
                 HStack {
                     Button {
@@ -86,15 +90,14 @@ struct SignInView: View {
                     } label: {
                         Image("appleIcon")
                             .resizable()
-                            .frame(width: screen.width / 8, height: screen.height / 16)
+                            .frame(width: screen.width / 6, height: screen.height / 13)
                     }
-                    
                     Button {
                         //google sign in
                     } label: {
                         Image("googleIcon")
                             .resizable()
-                            .frame(width: screen.width / 8, height: screen.height / 16)
+                            .frame(width: screen.width / 6, height: screen.height / 13)
                     }
                 }
                 Button {
@@ -103,6 +106,7 @@ struct SignInView: View {
                     Text("Forgot Password")
                         .foregroundColor(Color(hex: "#262838"))
                 }
+                .padding()
             }
             .padding(.top)
             
